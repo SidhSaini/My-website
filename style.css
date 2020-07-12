@@ -1,0 +1,79 @@
+h1{
+    color:orangered;
+    padding: 10px;
+    margin: 30px;
+}
+a{
+color:red;
+}
+/*{
+
+border:dotted red;
+
+}*/
+/*.header *{
+    border: solid;
+}*/
+
+.header{
+
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+
+    background-color: aqua;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logos{
+
+    background-color: aqua;
+    display:flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+text-align: center;
+
+}
+
+body{
+   background-color: #808080;
+
+}
+a:link{
+    color:orange
+}
+a:visited{
+    color:black
+}
+.menu{
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+
+.img{
+    position: relative;
+}
+.img p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.img:hover p{
+    opacity: 1;
+}
+.img:hover img{
+    opacity: 0.33;
+}
+
